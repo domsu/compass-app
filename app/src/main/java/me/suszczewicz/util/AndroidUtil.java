@@ -1,4 +1,4 @@
-package me.suszczewicz.view;
+package me.suszczewicz.util;
 
 import android.content.Context;
 import android.content.res.Configuration;

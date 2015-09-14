@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import me.suszczewicz.compass.R;
 import me.suszczewicz.fragment.CompassFragment;
 import me.suszczewicz.fragment.DeviceNotSupportedFragment;
-import me.suszczewicz.view.AndroidUtil;
+import me.suszczewicz.util.AndroidUtil;
 
 public class MainActivity extends AppCompatActivity {
 
