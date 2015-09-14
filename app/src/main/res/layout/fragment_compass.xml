@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.suszczewicz.view.CompassView
+        android:id="@+id/fragment_compass_view"
+        android:layout_width="@dimen/compass_size"
+        android:layout_height="@dimen/compass_size"
+        android:layout_centerInParent="true" />
+
+    <mbanje.kurt.fabbutton.FabButton
+        android:id="@+id/fragment_compass_navigate_fab"
+        android:layout_width="@dimen/fab_with_progress_size"
+        android:layout_height="@dimen/fab_with_progress_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:color="@color/accent"
+        android:indeterminate="true"
+        android:src="@drawable/ic_navigation_white_24dp"
+        app:fbb_progressColor="@color/fab_circular_progress"
+        app:fbb_progressWidthRatio="0.15"
+        app:fbb_showEndBitmap="false" />
+
+</RelativeLayout>

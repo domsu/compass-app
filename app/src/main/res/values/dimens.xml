@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="dialog_content_padding">10dp</dimen>
+    <dimen name="fab_with_progress_size">65dp</dimen>
+    <dimen name="compass_size">280dp</dimen>
+</resources>
