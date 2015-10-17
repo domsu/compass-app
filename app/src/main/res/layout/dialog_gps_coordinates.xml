@@ -11,8 +11,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/dialog_gps_coordinates_latitude"
         android:imeOptions="actionNext"
-        android:inputType="numberDecimal"
-        android:text="@string/default_lat"/>
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/dialog_gps_coordinates_long"
@@ -20,7 +19,6 @@
         android:layout_height="wrap_content"
         android:hint="@string/dialog_gps_coordinates_longitude"
         android:imeOptions="actionDone"
-        android:inputType="numberDecimal"
-        android:text="@string/default_long"/>
+        android:inputType="numberDecimal" />
 
 </LinearLayout>

@@ -15,6 +15,7 @@ import android.widget.EditText;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import me.suszczewicz.compass.BuildConfig;
 import me.suszczewicz.compass.R;
 import me.suszczewicz.util.GPSUtil;
 
@@ -73,6 +74,7 @@ public class GPSCoordinatesDialog extends DialogFragment {
         View v = layoutInflater.inflate(R.layout.dialog_gps_coordinates, null);
 
         ButterKnife.bind(this, v);
+        setupView();
 
         return v;
     }
@@ -91,6 +93,13 @@ public class GPSCoordinatesDialog extends DialogFragment {
 
             });
         });
+    }
+
+    private void setupView() {
+        if (BuildConfig.DEBUG) {
+            latitude.setText(R.string.default_lat);
+            longitude.setText(R.string.default_long);
+        }
     }
 
 }
