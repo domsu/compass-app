@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Compass</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Anuluj</string>
+
+    <string name="dialog_gps_coordinates_latitude">Szerokość (lat)</string>
+    <string name="dialog_gps_coordinates_longitude">Długość (long)</string>
+    <string name="dialog_gps_coordinates_name">Współrzędne GPS</string>
+    <string name="dialog_gps_coordinates_incorrect_values">Współrzędne GPS są nieprawidłowe</string>
+
+    <string name="fragment_device_not_supported_content">Niestety urządzenie nie jest obsługiwane. Akcelerometr lub magnetometr nie jest dostępny.</string>
+
+    <string name="fragment_compass_gps_error">Nie można pobrać współrzędnych GPS</string>
+</resources>

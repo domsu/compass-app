@@ -8,7 +8,7 @@
     <string name="dialog_gps_coordinates_name">GPS coordinates</string>
     <string name="dialog_gps_coordinates_incorrect_values">GPS coordinates are wrong</string>
 
-    <string name="fragment_device_not_supported_content">Sorry this device is not supported. Accelerometer or magnetometer sensor is not available. </string>
+    <string name="fragment_device_not_supported_content">Sorry this device is not supported. Accelerometer or magnetometer sensor is not available.</string>
 
     <string name="fragment_compass_gps_error">Unable to get GPS coordinates</string>
 
