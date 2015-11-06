@@ -1,5 +1,10 @@
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
 apply plugin: 'me.tatarka.retrolambda'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
 
 android {
     compileSdkVersion 23
@@ -52,4 +57,8 @@ dependencies {
     compile 'io.reactivex:rxandroid:1.0.1'
 
     compile 'mbanje.kurt:fabbutton:1.+'
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.5.2@aar') {
+        transitive = true;
+    }
 }
